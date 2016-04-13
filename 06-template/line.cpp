@@ -6,7 +6,8 @@
 
 void line::print()
 {
-
+	int x0 = start_x, y0 = start_y;
+	int x1 = end_x, y1 = end_y;
 	int dx = abs(x1-x0), sx = x0<x1 ? 1 : -1;
 	int dy = abs(y1-y0), sy = y0<y1 ? 1 : -1;
 	int err = (dx>dy ? dx : -dy)/2, e2;
