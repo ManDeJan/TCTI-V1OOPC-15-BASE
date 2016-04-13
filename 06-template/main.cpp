@@ -8,9 +8,9 @@
 #include "circle.hpp"
 
 int main(int argc, char **argv){
-   window w( 128, 64, 2 );
+   window w( 128, 64, 5 );
    
-   line diagonal_line( w, 5, 5, 30, 40 );
+   line diagonal_line( w, 0, 0, 1, 6 );
    diagonal_line.print();
    
    rectangle box( w, 20, 10, 30, 20 );

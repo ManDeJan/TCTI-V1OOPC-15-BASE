@@ -8,15 +8,17 @@
 
 class circle {
 private:
-   int mid_x;
-   int mid_y; 
-   int radius;
+   int xc;
+   int yc;
+   int rx;
+   int ry;
    window & w;
 public:
-   circle( window & w, int mid_x, int mid_y, int radius ):
-      mid_x( mid_x ),
-      mid_y( mid_y ),
-      radius( radius ),
+   circle( window & w, int xc, int yc, int rx, int ry ):
+      xc( xc ),
+      yc( yc ),
+      rx( rx ),
+	  ry( ry ),
       w( w )
    {}
    void print();
