@@ -33,7 +33,7 @@ window::window(int x_size, int y_size, int scale):
     sdl_renderer = SDL_CreateRenderer(
         sdl_win,
         -1,
-        (SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC)
+        (0)
     );
 
     if (!sdl_renderer)

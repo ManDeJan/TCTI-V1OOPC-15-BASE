@@ -16,7 +16,7 @@ int main(int argc, char **argv){
    rectangle box( w, 20, 10, 30, 20 );
    box.print();
    
-   circle ball( w, 70, 30, 20 );
+   circle ball( w, 64, 32, 20, 10 );
    ball.print();
    
    w.mainloop();
