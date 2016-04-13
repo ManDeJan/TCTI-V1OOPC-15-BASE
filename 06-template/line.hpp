@@ -12,17 +12,17 @@
 
 class line {
 private:
-   int start_x;
-   int start_y; 
-   int end_x;
-   int end_y;
+   int x0;
+   int y0; 
+   int x1;
+   int y1;
    window & w;
 public:
    line( window & w, int start_x, int start_y, int end_x, int end_y ):
-      start_x( start_x ),
-      start_y( start_y ),
-      end_x( end_x ),
-      end_y( end_y ),
+      x0( start_x ),
+      y0( start_y ),
+      x1( end_x ),
+      y1( end_y ),
       w( w )
    {}
    void print();

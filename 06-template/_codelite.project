@@ -25,10 +25,10 @@
     <File Name="window.hpp"/>
     <File Name="line.cpp"/>
     <File Name="rectangle.cpp"/>
-    <File Name="circle.cpp"/>
     <File Name="line.hpp"/>
+    <File Name="ellipse.cpp"/>
+    <File Name="ellipse.hpp"/>
     <File Name="window.cpp"/>
-    <File Name="circle.hpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>

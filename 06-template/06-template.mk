@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/line.cpp$(ObjectSuffix) $(IntermediateDirectory)/rectangle.cpp$(ObjectSuffix) $(IntermediateDirectory)/circle.cpp$(ObjectSuffix) $(IntermediateDirectory)/window.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/line.cpp$(ObjectSuffix) $(IntermediateDirectory)/rectangle.cpp$(ObjectSuffix) $(IntermediateDirectory)/ellipse.cpp$(ObjectSuffix) $(IntermediateDirectory)/window.cpp$(ObjectSuffix) 
 
 
 
@@ -111,13 +111,13 @@ $(IntermediateDirectory)/rectangle.cpp$(DependSuffix): rectangle.cpp
 $(IntermediateDirectory)/rectangle.cpp$(PreprocessSuffix): rectangle.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/rectangle.cpp$(PreprocessSuffix) "rectangle.cpp"
 
-$(IntermediateDirectory)/circle.cpp$(ObjectSuffix): circle.cpp $(IntermediateDirectory)/circle.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jan/Git/TCTI-V1OOPC-15-BASE/06-template/circle.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/circle.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/circle.cpp$(DependSuffix): circle.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/circle.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/circle.cpp$(DependSuffix) -MM "circle.cpp"
+$(IntermediateDirectory)/ellipse.cpp$(ObjectSuffix): ellipse.cpp $(IntermediateDirectory)/ellipse.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jan/Git/TCTI-V1OOPC-15-BASE/06-template/ellipse.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/ellipse.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/ellipse.cpp$(DependSuffix): ellipse.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/ellipse.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/ellipse.cpp$(DependSuffix) -MM "ellipse.cpp"
 
-$(IntermediateDirectory)/circle.cpp$(PreprocessSuffix): circle.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/circle.cpp$(PreprocessSuffix) "circle.cpp"
+$(IntermediateDirectory)/ellipse.cpp$(PreprocessSuffix): ellipse.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/ellipse.cpp$(PreprocessSuffix) "ellipse.cpp"
 
 $(IntermediateDirectory)/window.cpp$(ObjectSuffix): window.cpp $(IntermediateDirectory)/window.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jan/Git/TCTI-V1OOPC-15-BASE/06-template/window.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/window.cpp$(ObjectSuffix) $(IncludePath)
