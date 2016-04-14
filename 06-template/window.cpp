@@ -33,7 +33,8 @@ window::window(int x_size, int y_size, int scale):
     sdl_renderer = SDL_CreateRenderer(
         sdl_win,
         -1,
-        (0)
+        0 // Renderer flags. With 0 SDL should use acceleration when
+          // available and fall back to software rendering otherwise.
     );
 
     if (!sdl_renderer)
@@ -60,8 +61,8 @@ void window::clear(){
 }
 
 void window::draw(int x, int y){
-    pixels[y][x] = true;
-    // put_pixel(sdl_renderer, x, y, scale);
+    if ((size_t)y < pixels.size() && (size_t)x < pixels[y].size())
+        pixels[y][x] = true;
 }
 
 void window::redraw() {
