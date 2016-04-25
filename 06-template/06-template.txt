@@ -1,1 +1,0 @@
-./Debug/main.cpp.o ./Debug/line.cpp.o ./Debug/rectangle.cpp.o ./Debug/ellipse.cpp.o ./Debug/window.cpp.o

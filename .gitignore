@@ -1,1 +1,15 @@
 .codelite/
+Debug
+Release
+Release_gcc_unicode
+DebugUnicode
+*.session
+*.tags
+*.d
+*.o
+*.pyc
+bin
+bin/ofMaker
+lib
+*.mk
+*.workspace.session

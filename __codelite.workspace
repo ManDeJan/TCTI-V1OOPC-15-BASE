@@ -30,7 +30,7 @@
       <Project Name="08-05-monadic" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="06-template" Path="06-template/_codelite.project" Active="Yes"/>
+  <Project Name="06-template" Path="06-template/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="06-template" ConfigName="Release"/>
@@ -46,6 +46,12 @@
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="10-01-iostream" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="Jan-gfx-project" Path="Jan-gfx-project/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="Jan-gfx-project" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
   <Project Name="11-06-stringstream" Path="11-06-stringstream/_codelite.project" Active="No"/>
@@ -82,6 +88,12 @@
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="11-04-catch-message" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="Opdracht6-1" Path="Opdracht6-1/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="Opdracht6-1" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
   <Project Name="05-05-private" Path="05-05-private/_codelite.project" Active="No"/>
@@ -262,6 +274,12 @@
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="07-02-const-error" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="Opdracht6-2" Path="Opdracht6-2/_codelite.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="Opdracht6-2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
   <Project Name="15-01-separate" Path="15-01-separate/_codelite.project" Active="No"/>

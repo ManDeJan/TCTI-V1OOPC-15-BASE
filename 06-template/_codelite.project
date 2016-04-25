@@ -24,11 +24,15 @@
     <File Name="rectangle.hpp"/>
     <File Name="window.hpp"/>
     <File Name="line.cpp"/>
+    <File Name="frectangle.hpp"/>
     <File Name="rectangle.cpp"/>
     <File Name="line.hpp"/>
     <File Name="ellipse.cpp"/>
     <File Name="ellipse.hpp"/>
+    <File Name="frectangle.cpp"/>
     <File Name="window.cpp"/>
+    <File Name="fellipse.hpp"/>
+    <File Name="fellipse.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
