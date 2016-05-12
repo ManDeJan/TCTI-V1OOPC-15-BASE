@@ -29,12 +29,12 @@
     <File Name="line.hpp"/>
     <File Name="ellipse.cpp"/>
     <File Name="ellipse.hpp"/>
+    <File Name="sprite.hpp"/>
     <File Name="frectangle.cpp"/>
     <File Name="window.cpp"/>
     <File Name="fellipse.hpp"/>
     <File Name="fellipse.cpp"/>
     <File Name="sprite.cpp"/>
-    <File Name="sprite.hpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>

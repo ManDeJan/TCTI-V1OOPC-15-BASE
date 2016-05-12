@@ -108,6 +108,12 @@
       <Project Name="08-10-dry" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
+  <Project Name="PngToScreen" Path="PngToScreen/_codelite.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="PngToScreen" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
   <Project Name="11-01-asserts" Path="11-01-asserts/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
@@ -276,7 +282,7 @@
       <Project Name="07-02-const-error" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="Opdracht6-2" Path="Opdracht6-2/_codelite.project" Active="Yes"/>
+  <Project Name="Opdracht6-2" Path="Opdracht6-2/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="Opdracht6-2" ConfigName="Release"/>
