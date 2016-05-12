@@ -1,0 +1,1 @@
+./Debug/main.cpp.o ./Debug/window.cpp.o ./Debug/06-template_line.cpp.o
